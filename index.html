@@ -1,87 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WhereTo60 | AI Decision App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhereTo60 — AI Decision App by [Your Name]</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 0;
-      background: #fafafa;
-      color: #333;
+      background: #f9f9f9;
+      color: #222;
       line-height: 1.6;
     }
     header {
-      background: #111;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
       color: white;
-      padding: 1.5rem;
       text-align: center;
+      padding: 80px 20px;
     }
-    main {
-      padding: 2rem;
-      max-width: 700px;
-      margin: auto;
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
     }
-    h1, h2 {
-      color: #111;
+    header p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+      opacity: 0.9;
     }
-    .button {
-      display: inline-block;
-      background: #0070f3;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border-radius: 6px;
-      text-decoration: none;
-      margin-top: 1rem;
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #333;
+      border-left: 4px solid #6366f1;
+      padding-left: 12px;
+      margin-bottom: 10px;
+    }
+    .case-study p {
+      margin-bottom: 10px;
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      border-radius: 12px;
+      height: 800px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     }
     footer {
-      background: #111;
-      color: white;
       text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
+      background: #111;
+      color: #ccc;
+      padding: 40px 20px;
+      margin-top: 60px;
+    }
+    footer a {
+      color: #8b5cf6;
+      text-decoration: none;
+      font-weight: 600;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>WhereTo60 🍴</h1>
-    <p>Decide where to eat or order in under 60 seconds — powered by AI.</p>
+    <h1>WhereTo60 — Decide Where to Eat in 60 Seconds 🍔</h1>
+    <p>An AI-powered decision app built with Claude AI to eliminate decision fatigue in daily life.</p>
   </header>
 
-  <main>
-    <h2>About the Project</h2>
-    <p>
-      WhereTo60 helps users overcome decision fatigue by recommending a restaurant or takeout spot
-      based on ZIP code, mood, cuisine, and price. Built using Claude AI for reasoning, integrated
-      with Google Maps and DoorDash for real-time options.
-    </p>
+  <section class="case-study">
+    <h2>🚀 Project Overview</h2>
+    <p><strong>Goal:</strong> Help users decide where to eat or order from in under 60 seconds using AI reasoning and personalization.</p>
+    <p><strong>Built With:</strong> Claude AI, Streamlit/Versal, Google Maps API, DoorDash API.</p>
+    <p><strong>My Role:</strong> Full-cycle AI Product Manager — ideation, Claude prompt design, UX flow, MVP build, user testing, and iteration.</p>
+  </section>
 
-    <h2>Try the App</h2>
-    <p>
-      Click below to explore the live demo powered by Claude AI.
+  <section id="demo">
+    <h2>🎯 Try the Live Demo</h2>
+    <p>Experience WhereTo60 below — enter your ZIP code, mood, cuisine, and price range to get a personalized recommendation.</p>
+    <iframe src="https://claude.ai/public/artifacts/1f462587-e6f0-4740-b52b-6c17fa976743" allowfullscreen></iframe>
+    <p style="font-size:14px; color:#666; text-align:center; margin-top:10px;">
+      Prototype powered by Claude AI — prompt logic and product design by <strong>[Your Name]</strong>
     </p>
-    <a href="https://claude.ai/public/artifacts/1f462587-e6f0-4740-b52b-6c17fa976743" target="_blank" class="button">Launch Demo</a>
+  </section>
 
-    <h2>My Role</h2>
+  <section>
+    <h2>📈 Key Learnings & Next Steps</h2>
     <ul>
-      <li>Ideated and built MVP to solve real decision-fatigue problem.</li>
-      <li>Designed Claude prompt logic for fast, confident recommendations.</li>
-      <li>Integrated APIs for location, cuisine, and ordering.</li>
-      <li>Iterating based on early user feedback and usage data.</li>
+      <li>Validated strong engagement in early user testing — average 35 seconds to decision.</li>
+      <li>Next iteration: build personalized history + satisfaction scoring.</li>
+      <li>Goal: evolve WhereTo60 into a cross-domain AI decision platform (“DecideIn60”).</li>
     </ul>
-
-    <h2>Contact</h2>
-    <p>
-      Connect with me on <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
-      or email me at <strong>shashikanth8829@gmail.com</strong>.
-    </p>
-  </main>
+  </section>
 
   <footer>
-    <p>© 2025 WhereTo60 | Built for my AI Product Management Portfolio</p>
+    <p>Let’s connect — reach me at <a href="mailto:youremail@example.com">shashikanth8829@gmail.com</a>  
+    or <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>.</p>
   </footer>
 </body>
 </html>
